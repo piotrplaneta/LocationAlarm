@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/select_radius" />
+
+    <EditText
+        android:id="@+id/radiusEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="2"
+        android:inputType="number" android:layout_alignLeft="@+id/textView1" android:layout_below="@+id/textView1">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+            android:id="@+id/selectTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time_without_update"
+            android:layout_alignLeft="@+id/textView1" android:layout_below="@+id/radiusEdit"
+            android:layout_marginTop="20dp"/>
+
+    <EditText
+            android:id="@+id/timeEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="5"
+            android:inputType="number" android:layout_alignLeft="@+id/textView1" android:layout_below="@+id/selectTime">
+
+    </EditText>
+    <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/timeEdit"
+            android:layout_toRightOf="@id/timeEdit"
+            android:text="@string/time_minutes" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/length_unit_km"
+        android:layout_toRightOf="@+id/radiusEdit" android:layout_alignBottom="@+id/radiusEdit"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_to_favorites_text"
+            android:id="@+id/addToFavoritesText"
+            android:layout_alignLeft="@+id/textView1" android:layout_below="@+id/timeEdit"
+            android:layout_marginTop="20dp"/>
+
+    <EditText
+            android:id="@+id/favoritesNameEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_alignLeft="@+id/textView1" android:layout_below="@+id/addToFavoritesText"/>
+
+    <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:onClick="setAlarm"
+            android:layout_centerHorizontal="true" android:layout_below="@+id/favoritesNameEdit"
+            android:layout_marginTop="20dp"/>
+
+
+
+</RelativeLayout>

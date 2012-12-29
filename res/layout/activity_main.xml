@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <com.google.android.maps.MapView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:apiKey="0C9puT8Gbap5CiT_0dZCBJU2kwfxlhIMujZ27fg" />
+
+    <Button android:layout_width="100dip"
+        android:layout_height="wrap_content" android:text="@string/select_destination"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="10dip"
+        android:id="@+id/destinationButton"
+        android:onClick="toggleMode" />
+
+    <Button android:layout_width="100dip"
+            android:layout_height="wrap_content" android:text="@string/clear_destination"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="10dip"
+            android:id="@+id/clearDestinationButton"
+            android:visibility="gone"
+            android:onClick="clearDestination" />
+    <Button
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:text="@string/favorites"
+            android:id="@+id/showFavoritesButton"
+            android:layout_alignLeft="@+id/destinationButton" android:layout_below="@+id/destinationButton"
+            android:layout_marginRight="10dip"
+            android:onClick="showFavorites"/>
+
+</RelativeLayout>

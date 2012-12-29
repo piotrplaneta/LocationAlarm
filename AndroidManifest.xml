@@ -1,0 +1,60 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.uj.pmd.locationalarm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+     <uses-permission android:name="android.permission.INTERNET"/>
+     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+     <uses-permission android:name="android.permission.VIBRATE"/>
+     <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.google.android.maps" />
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name=".activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".activities.AlarmDetailsActivity"
+            android:label="@string/title_activity_alarm_details" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.uj.pmd.locationalarm.MainActivity" />
+        </activity>
+        <activity android:name=".activities.AlarmActivity"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:name=".activities.FavoritesListActivity"
+                  android:label="@string/select_destination_from_favorites"/>
+
+        <service android:name=".services.NetworkLocalizationService" />
+        <service android:name=".services.CheckLastLocationTimeService"/>
+        <service android:name=".services.GpsLocalizationService"/>
+        <service android:name=".services.CheckLastGpsLocationTimeService"/>
+        <service android:name=".services.CheckLastNetworkLocationTimeService"/>
+
+        <receiver android:name=".receivers.BatteryStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_BATTERY_LOW"/>
+                <action android:name="android.intent.action.ACTION_BATTERY_OKAY"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
