@@ -48,9 +48,6 @@ public class FavoritesListActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-                // When clicked, show a toast with the TextView text
-                Toast.makeText(getApplicationContext(),
-                        destinations.get(position).getName(), Toast.LENGTH_SHORT).show();
 
                 AppPreferences appPrefs = new AppPreferences(getApplicationContext());
                 appPrefs.setDestinationLongitude((float)destinations.get(position).getLongitude());

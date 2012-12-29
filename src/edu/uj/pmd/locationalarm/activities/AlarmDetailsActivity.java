@@ -36,7 +36,7 @@ public class AlarmDetailsActivity extends Activity {
 
     private void hideFavoritesNameEditIfDestinationFromFavorites() {
         Intent intent = getIntent();
-        if(intent.getExtras().getBoolean("fromFavorites")) {
+        if(intent.getExtras() != null && intent.getExtras().getBoolean("fromFavorites")) {
             findViewById(R.id.addToFavoritesText).setVisibility(View.GONE);
             findViewById(R.id.favoritesNameEdit).setVisibility(View.GONE);
         }
