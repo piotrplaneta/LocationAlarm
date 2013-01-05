@@ -1,7 +1,6 @@
 package edu.uj.pmd.locationalarm.activities;
 
 import android.app.Activity;
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
@@ -9,9 +8,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.*;
 import edu.uj.pmd.locationalarm.R;
-import edu.uj.pmd.locationalarm.favorites.DatabaseHandler;
-import edu.uj.pmd.locationalarm.favorites.Destination;
-import edu.uj.pmd.locationalarm.favorites.tasks.DeleteFavoriteDestinationTask;
+import edu.uj.pmd.locationalarm.persistance.DatabaseHandler;
+import edu.uj.pmd.locationalarm.persistance.Destination;
+import edu.uj.pmd.locationalarm.persistance.tasks.DeleteFavoriteDestinationTask;
 import edu.uj.pmd.locationalarm.utilities.AppPreferences;
 
 import java.util.ArrayList;

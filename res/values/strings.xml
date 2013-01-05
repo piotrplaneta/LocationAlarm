@@ -4,7 +4,7 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Location Alarm</string>
     <string name="long_lat">Longitude: 0\n Latitude: 0</string>
-    <string name="adjust_map">Scroll map</string>
+    <string name="adjust_map">Back</string>
     <string name="select_destination">Select Destination from map</string>
     <string name="clear_destination">Clear Destination</string>
     <string name="select_radius">Select radius:</string>
@@ -40,5 +40,5 @@
     <string name="delete">Delete</string>
     <string name="destination_deleted">Favorite destination was deleted</string>
     <string name="destination_added">Favorite destination was added</string>
-    <string name="select_destination_from_favorites">Select destination from favorites:</string>
+    <string name="select_destination_from_favorites">Select destination:</string>
 </resources>

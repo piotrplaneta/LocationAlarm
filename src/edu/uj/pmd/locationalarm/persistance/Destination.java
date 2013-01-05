@@ -1,4 +1,4 @@
-package edu.uj.pmd.locationalarm.favorites;
+package edu.uj.pmd.locationalarm.persistance;
 
 /**
  * User: piotrplaneta

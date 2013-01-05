@@ -3,7 +3,6 @@ package edu.uj.pmd.locationalarm.utilities;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.location.Location;
 
 /**
  * User: piotrplaneta

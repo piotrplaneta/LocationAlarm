@@ -1,11 +1,11 @@
-package edu.uj.pmd.locationalarm.favorites.tasks;
+package edu.uj.pmd.locationalarm.persistance.tasks;
 
 import android.content.Context;
 import android.os.AsyncTask;
 import android.widget.Toast;
 import edu.uj.pmd.locationalarm.R;
-import edu.uj.pmd.locationalarm.favorites.DatabaseHandler;
-import edu.uj.pmd.locationalarm.favorites.Destination;
+import edu.uj.pmd.locationalarm.persistance.DatabaseHandler;
+import edu.uj.pmd.locationalarm.persistance.Destination;
 
 /**
  * User: piotrplaneta

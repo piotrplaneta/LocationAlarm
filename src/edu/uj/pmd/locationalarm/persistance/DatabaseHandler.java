@@ -1,4 +1,4 @@
-package edu.uj.pmd.locationalarm.favorites;
+package edu.uj.pmd.locationalarm.persistance;
 
 import android.content.ContentValues;
 import android.content.Context;
