@@ -8,9 +8,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-import edu.uj.pmd.locationalarm.persistance.DatabaseHandler;
-import edu.uj.pmd.locationalarm.persistance.Destination;
-import edu.uj.pmd.locationalarm.persistance.tasks.AddFavoriteDestinationTask;
+import edu.uj.pmd.locationalarm.database.DatabaseHandler;
+import edu.uj.pmd.locationalarm.database.Destination;
+import edu.uj.pmd.locationalarm.database.tasks.AddFavoriteDestinationTask;
 import edu.uj.pmd.locationalarm.utilities.AppPreferences;
 import edu.uj.pmd.locationalarm.R;
 
@@ -79,7 +79,7 @@ public class AlarmDetailsActivity extends Activity {
             addFavoriteDestination(name);
         } else {
             DatabaseHandler database = new DatabaseHandler(this);
-            Log.i("LocationAlarm", "(not added) persistance count: " + String.valueOf(database.getFavoriteDestinationsCount()));
+            Log.i("LocationAlarm", "(not added) database count: " + String.valueOf(database.getFavoriteDestinationsCount()));
         }
 
         appPrefs.setDestinationRadius(this.destinationRadius);

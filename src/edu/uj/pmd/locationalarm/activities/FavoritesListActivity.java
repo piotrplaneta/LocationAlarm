@@ -8,9 +8,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.*;
 import edu.uj.pmd.locationalarm.R;
-import edu.uj.pmd.locationalarm.persistance.DatabaseHandler;
-import edu.uj.pmd.locationalarm.persistance.Destination;
-import edu.uj.pmd.locationalarm.persistance.tasks.DeleteFavoriteDestinationTask;
+import edu.uj.pmd.locationalarm.database.DatabaseHandler;
+import edu.uj.pmd.locationalarm.database.Destination;
+import edu.uj.pmd.locationalarm.database.tasks.DeleteFavoriteDestinationTask;
 import edu.uj.pmd.locationalarm.utilities.AppPreferences;
 
 import java.util.ArrayList;
