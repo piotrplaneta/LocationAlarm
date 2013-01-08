@@ -43,7 +43,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/LocalizationUtilities.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356798067921" ignored="false" />
     <file path="/Team Project/challenger-android/AndroidManifest.xml" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356780262758" ignored="false" />
-    <file path="/fragment.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356807746048" ignored="false" />
+    <file path="/fragment.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1357682678814" ignored="false" />
     <file path="/BatteryStateReceiver.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356784125205" ignored="false" />
     <file path="/MainActivity.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356809814983" ignored="false" />
     <file path="/AlarmActivity.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356786752734" ignored="false" />
@@ -54,7 +54,7 @@
     <file path="$PROJECT_DIR$/bin/AndroidManifest.xml" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356793239077" ignored="false" />
     <file path="/FavoriteDestination.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356795252372" ignored="false" />
     <file path="/DatabaseHandler.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356798424143" ignored="false" />
-    <file path="/activity_alarm_details.xml" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356810218717" ignored="false" />
+    <file path="/activity_alarm_details.xml" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1357681713442" ignored="false" />
     <file path="/AlarmDetailsActivity.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356824826551" ignored="false" />
     <file path="/activity_main.xml" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356799277930" ignored="false" />
     <file path="/FavoritesListViewActivity.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356807067119" ignored="false" />
@@ -64,10 +64,16 @@
     <file path="/AddFavoriteDestinationTask.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356807712544" ignored="false" />
     <file path="/DeleteFavoriteDestinationTask.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356807669617" ignored="false" />
     <file path="/favorites_list_view_item.xml" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356808458233" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356809139709" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1357682152238" ignored="false" />
     <file path="/a.dummy" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356810336680" ignored="false" />
     <file path="/README.md" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356811908191" ignored="false" />
     <file path="/.gitignore" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1356812574976" ignored="false" />
+    <file path="$USER_HOME$/Downloads/VirtualJax/res/values/strings.xml" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1357577217397" ignored="false" />
+    <file path="$USER_HOME$/Downloads/VirtualJax/gen/com/android/sensor/virtualjax/Manifest.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1357577559536" ignored="false" />
+    <file path="$USER_HOME$/Downloads/VirtualJax/gen/com/android/sensor/virtualjax/BuildConfig.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1357577559536" ignored="false" />
+    <file path="$USER_HOME$/Downloads/VirtualJax/gen/com/android/sensor/virtualjax/R.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1357577570815" ignored="false" />
+    <file path="$USER_HOME$/Downloads/VirtualJax/gen/com/example/VirtualJax/Manifest.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1357577593910" ignored="false" />
+    <file path="$USER_HOME$/Downloads/VirtualJax/gen/com/example/VirtualJax/R.java" changelist="241bf0cb-b0ae-4fc4-b36a-eba0ec97d4c7" time="1357577588348" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +93,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -122,6 +127,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -134,25 +140,25 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="50" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0">
+            <state line="265" column="5" selection-start="10153" selection-end="10153" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocalizationUtilities.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/utilities/LocalizationUtilities.java">
+      <file leaf-file-name="AlarmNotificationUtilities.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/utilities/AlarmNotificationUtilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="31" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
+            <state line="70" column="26" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.65375304">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+            <state line="24" column="72" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,24 +182,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FavoritesListActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/FavoritesListActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckLastLocationTimeService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/services/CheckLastLocationTimeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="27" selection-start="1914" selection-end="1914" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AddFavoriteDestinationTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/database/tasks/AddFavoriteDestinationTask.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -203,10 +191,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteFavoriteDestinationTask.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DeleteFavoriteDestinationTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/database/tasks/DeleteFavoriteDestinationTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="9" selection-start="871" selection-end="871" vertical-scroll-proportion="0.54330707">
+            <state line="26" column="37" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_alarm_details.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_alarm_details.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="88" column="0" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_favorites_list_view.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_favorites_list_view.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -231,15 +243,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/favorites/Destination.java" />
         <option value="$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/favorites/tasks/DeleteFavoriteDestinationTask.java" />
         <option value="$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/favorites/tasks/AddFavoriteDestinationTask.java" />
         <option value="$PROJECT_DIR$/res/layout/favorites_list_view_item.xml" />
         <option value="$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/AlarmActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_favorites_list_view.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_alarm_details.xml" />
-        <option value="$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/favorites/DatabaseHandler.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -247,6 +255,10 @@
         <option value="$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/FavoritesListActivity.java" />
         <option value="$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/AlarmDetailsActivity.java" />
         <option value="$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/database/tasks/DeleteFavoriteDestinationTask.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_alarm_details.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/utilities/AlarmNotificationUtilities.java" />
       </list>
     </option>
   </component>
@@ -300,8 +312,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -404,6 +414,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="overlays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationAlarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationAlarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locationalarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listeners" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationAlarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationAlarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locationalarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -431,50 +485,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocationAlarm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocationAlarm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locationalarm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="overlays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocationAlarm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocationAlarm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locationalarm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listeners" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,6 +552,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationAlarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LocationAlarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -552,27 +580,32 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="fileTemplates" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/VirtualJax" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="DEBUGGABLE_DEVICE" value="0019c10467349e" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="DEBUGGABLE_PROCESS" value="edu.uj.pmd.locationalarm" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -618,19 +651,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -656,6 +676,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -726,8 +759,24 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="VirtualJax" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="VirtualJax" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.LocationAlarm" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.VirtualJax" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -782,31 +831,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="804" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12984218" sideWeight="0.67206985" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32137734" sideWeight="0.67206985" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.6759124" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39970717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.48637015" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.50860834" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994253" sideWeight="0.67642754" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21377331" sideWeight="0.67346936" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32163742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13074712" sideWeight="0.67206985" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21377331" sideWeight="0.67836255" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32163742" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32255748" sideWeight="0.67206985" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.6759124" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -871,34 +920,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/database/DatabaseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/database/Destination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/overlays/DestinationItemizedOverlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/overlays/DestinationRadiusOverlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/overlays/LocationAccuracyRadiusOverlay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="13" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
@@ -920,13 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/FavoritesListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
@@ -941,23 +955,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="50" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/utilities/LocalizationUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="31" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/AlarmDetailsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="41" selection-start="3748" selection-end="3748" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -978,11 +978,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/database/tasks/DeleteFavoriteDestinationTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="9" selection-start="871" selection-end="871" vertical-scroll-proportion="0.54330707">
+        <state line="26" column="37" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_favorites_list_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_alarm_details.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="88" column="0" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="265" column="5" selection-start="10153" selection-end="10153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="72" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/activities/AlarmDetailsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="41" selection-start="3748" selection-end="3748" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uj/pmd/locationalarm/utilities/AlarmNotificationUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="26" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.65375304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LocationAlarm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

@@ -2,6 +2,7 @@ package edu.uj.pmd.locationalarm.activities;
 
 import java.util.List;
 
+import android.content.res.Configuration;
 import android.widget.Toast;
 import com.google.android.maps.GeoPoint;
 import com.google.android.maps.MapActivity;
